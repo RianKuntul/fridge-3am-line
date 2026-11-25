@@ -5,8 +5,9 @@
 [![Reward](https://make.fun/badge/u-deysumbrella-the-3am-fridge-text-4c3e721d/RianKuntul/fridge-3am-line/reward.svg)](https://make.fun/bounty/u-deysumbrella-the-3am-fridge-text-4c3e721d)
 
 The one line a smart fridge texts its owner at 3am: a crime report from
-the only appliance awake all night — the cake saved for tomorrow is gone,
-the owner's 2am self ate it, and the fridge has the footage.
+the only appliance awake all night — the leftovers hidden behind the
+pickles are gone, the owner ate them standing up in the dark like a
+raccoon, and the fridge saw everything. Then it tells everyone.
 
 ## Run
 

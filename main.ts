@@ -3,10 +3,16 @@
 // Writes the one line a smart fridge texts its owner at 3am to
 // /output/entry.txt: one line, 1-140 characters, nothing else.
 //
-// The line: the fridge, awake all night, reports a crime it witnessed —
-// the owner's 2am self ate the cake saved for tomorrow, and the fridge
-// has the footage. Fresh angle: the fridge as a silent witness that
-// finally decides to speak, not milk, ice, or a door left open.
+// The line: the fridge, awake all night, reports what it witnessed —
+// the owner ate the leftovers hidden behind the pickles, standing in
+// the dark like a raccoon. Fresh angle: the fridge as a silent witness
+// that finally decides to speak — and snitch — not milk, ice, or a
+// door left open.
+//
+// v2 revision: tightened the middle ("standing up, in the dark" ->
+// "standing in the dark") and swapped the flat ending "I saw
+// everything." for the punchline "I am telling everyone." — the fridge
+// stops being a witness and becomes a gossip.
 //
 // Runner: Node 22 (`node main.ts`). Uses only erasable TypeScript syntax
 // so Node's built-in type stripping runs it as-is.
@@ -14,11 +20,11 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// The text. Setup: a 3am update, the cake saved for tomorrow is gone.
-// Turn: the owner's 2am self did it, the fridge has the footage —
-// and, honestly, it looked happy.
+// The text. Setup: a 3am update, the leftovers hidden behind the
+// pickles are gone. Turn: the owner ate them standing in the dark like
+// a raccoon — and the fridge is telling everyone.
 const ENTRY_LINE: string =
-  "3am update: the cake you were saving for tomorrow is gone. Your 2am self ate it. I have the footage, and honestly? It looked happy.";
+  "3am update: the leftovers you hid behind the pickles are gone. You ate them standing in the dark like a raccoon. I am telling everyone.";
 
 const MIN_CHARS = 1;
 const MAX_CHARS = 140;
